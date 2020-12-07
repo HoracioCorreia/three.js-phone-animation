@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/phone/static/css/main.9378cf60.chunk.css",
+    "main.js": "/phone/static/js/main.1ca5d5a1.chunk.js",
+    "main.js.map": "/phone/static/js/main.1ca5d5a1.chunk.js.map",
+    "runtime-main.js": "/phone/static/js/runtime-main.3d5d491d.js",
+    "runtime-main.js.map": "/phone/static/js/runtime-main.3d5d491d.js.map",
+    "static/js/2.f94dcc3f.chunk.js": "/phone/static/js/2.f94dcc3f.chunk.js",
+    "static/js/2.f94dcc3f.chunk.js.map": "/phone/static/js/2.f94dcc3f.chunk.js.map",
+    "static/js/3.1054aa2b.chunk.js": "/phone/static/js/3.1054aa2b.chunk.js",
+    "static/js/3.1054aa2b.chunk.js.map": "/phone/static/js/3.1054aa2b.chunk.js.map",
+    "index.html": "/phone/index.html",
+    "static/css/main.9378cf60.chunk.css.map": "/phone/static/css/main.9378cf60.chunk.css.map",
+    "static/js/2.f94dcc3f.chunk.js.LICENSE.txt": "/phone/static/js/2.f94dcc3f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/phone/static/media/logo.6ce24c58.svg",
+    "static/media/matcap_03.jpg": "/phone/static/media/matcap_03.8f79f9c6.jpg",
+    "static/media/phone3d.glb": "/phone/static/media/phone3d.b298f32c.glb",
+    "static/media/phone3d_fr.glb": "/phone/static/media/phone3d_fr.6402fa0c.glb"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d5d491d.js",
+    "static/js/2.f94dcc3f.chunk.js",
+    "static/css/main.9378cf60.chunk.css",
+    "static/js/main.1ca5d5a1.chunk.js"
+  ]
+}
