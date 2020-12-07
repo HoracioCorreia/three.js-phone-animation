@@ -1,0 +1,594 @@
+/* General */
+
+.landing.loading {
+    overflow: hidden;
+}
+
+.section-content .surprise-button {
+    margin-top: 40px;
+}
+
+/* Phone 3D */
+.landing-phone-3d {
+    position: relative;
+    width: 78vh;
+    height: 78vh;
+    min-width: 720px;
+    min-height: 720px;
+    max-width: 880px;
+    max-height: 880px;
+    pointer-events: none;
+    /*border: 1px dashed rgba(0, 0, 0, 0.1);*/
+}
+
+.landing-phone-3d-wrapper {
+    min-width: 1px;
+    height: 78vh;
+    min-height: 720px;
+    max-height: 880px;
+}
+
+.landing-phone-3d.right {
+    transform: translate(-25%, 0);
+}
+
+/* Section 1 */
+
+.landing .words-wrapper {
+    width: 100%;
+    max-width: 100%;
+    height: 90vh;
+    min-height: 680px;
+    max-height: 920px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.landing .scroll-button {
+    position: absolute;
+    left: calc(50% - 38px);
+    bottom: 50px;
+    width: 74px;
+    height: 74px;
+    z-index: 8;
+}
+
+.landing .scroll-button img {
+    width: 74px;
+    height: 74px;
+    padding: 28px;
+    box-sizing: border-box;
+    background: #ffffff;
+    box-shadow: 0px 3.02041px 5.38182px rgba(35, 35, 35, 0.25);
+    border-radius: 50%;
+    transition: all linear 150ms;
+}
+
+.landing .scroll-button img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.landing .words {
+    flex: 0 1 auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.landing .words div {
+    display: flex;
+    flex-direction: row;
+}
+
+.landing .words span {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7vw;
+    line-height: 9vw;
+    color: #ffffff;
+    cursor: default;
+}
+
+.landing .words span.word {
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.landing .words span.point {
+    margin-right: 30px;
+}
+
+.landing .words span.point.teal {
+    color: #6afbcf;
+}
+
+.landing .words span.point.lightblue {
+    color: #00aade;
+}
+
+.landing .words span.point.yellow {
+    color: #fff35a;
+}
+
+.landing .words span.point.red {
+    color: #ff4a3b;
+}
+
+.landing .words span.point.lightred {
+    color: #ff8686;
+}
+
+.landing .words span.point.blue {
+    color: #0031ff;
+}
+
+.landing .words span.point.orange {
+    color: #fba16a;
+}
+
+.landing .words span.point.purple {
+    color: #f66be0;
+}
+
+.landing .mobile-download-button {
+    display: none;
+}
+
+/* Section 2 */
+
+.landing #how {
+    flex-shrink: 0;
+    background-color: #fff9f6;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 0px 140px 0px;
+    z-index: 8;
+}
+
+.landing #how .desktop {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing #how .mobile {
+    display: none;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing #how .section-content {
+    align-items: center;
+    text-align: center;
+}
+
+.landing #how .desktop .illu-how {
+    height: 440px;
+    margin-top: 50px;
+}
+
+.landing #how .desktop .illu-text {
+    display: flex;
+    width: 830px;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.landing #how .desktop .illu-text > div {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+}
+
+/* Section 3 */
+
+.landing #shops {
+    flex-shrink: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 300px;
+}
+
+.landing #shops .section-content {
+    margin-bottom: 90px;
+}
+
+.landing #shops .surprise-connect-btn {
+    z-index: 8;
+}
+
+/* Section 4 */
+
+.landing #benefits {
+    flex-shrink: 0;
+    background-color: #fff9f6;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 1000px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.landing #benefits .section-content {
+    align-items: center;
+    text-align: center;
+}
+
+.landing #benefits h2 {
+    margin-bottom: 60px;
+}
+
+.benefits-feature {
+    position: absolute;
+    transition: all 200ms linear;
+}
+
+.benefits-feature:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.benefits-feature-inner {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits-feature img {
+    width: 108px;
+    height: 108px;
+    margin-bottom: 10px;
+}
+
+.benefits-feature h2 {
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.benefits-feature.automatic {
+    top: 540px;
+    left: 40px;
+}
+
+.benefits-feature.cash {
+    top: 340px;
+    right: 40px;
+}
+
+.benefits-feature.share {
+    top: 790px;
+    right: 120px;
+}
+
+/* Section 5 */
+
+.landing #security {
+    flex-shrink: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    z-index: 8;
+}
+
+.landing #security .section-content {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.landing #security h1 {
+    margin-bottom: 10px;
+}
+
+.landing #security .col {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    min-height: 440px;
+    flex-direction: column;
+}
+
+.landing #security .row {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+.landing #security .row p {
+    color: #fba16a;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    border: 1px solid #fba16a;
+    border-radius: 50px;
+    padding: 8px 24px;
+    margin: 25px 25px 0 0;
+}
+
+.landing #security .illu-security {
+    height: 480px;
+    margin-top: 0px;
+}
+
+/* Section 6 */
+
+.landing #faq {
+    flex-shrink: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    z-index: 8;
+}
+
+.landing #faq .section-content {
+    align-items: center;
+    text-align: center;
+}
+
+.landing #faq .featured {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    min-width: 260px;
+}
+
+.landing #faq .featured .animated-container,
+.landing #faq .featured .animated-content {
+    width: 100%;
+}
+
+.landing #faq .featured .surprise-button {
+    background: white;
+    box-shadow: 0px 5.67017px 21.2632px rgba(35, 41, 54, 0.14);
+    border-radius: 120px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    color: #373a42;
+    padding: 0px 30px 0px 30px;
+}
+
+.landing #faq .featured .surprise-button img {
+    display: none;
+}
+
+@media screen and (min-width: 2050px) {
+    .landing .words span {
+        font-size: 144px;
+        line-height: 180px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+    .benefits-feature h2 {
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 5px;
+    }
+
+    .benefits-feature h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .benefits-feature.automatic {
+        top: 540px;
+        left: 30px;
+    }
+
+    .benefits-feature.cash {
+        top: 340px;
+        right: 30px;
+    }
+
+    .benefits-feature.share {
+        top: 790px;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* General */
+
+    .landing-phone-3d-wrapper {
+        min-width: 1px;
+        height: 70vh;
+        min-height: 0px;
+        max-height: 760px;
+    }
+
+    /* Phone3D responsive */
+    .landing-phone-3d {
+        width: 70vh;
+        height: 70vh;
+        min-width: 0px;
+        min-height: 0px;
+        max-width: 760px;
+        max-height: 760px;
+    }
+
+    /* Landing responsive */
+    .landing .words-wrapper {
+        height: 100vh;
+        max-height: 1080px;
+    }
+
+    .landing .words {
+        transform: translate(-50%, -70%);
+    }
+
+    .landing .words span {
+        font-size: 130px;
+        line-height: 155px;
+    }
+
+    .landing .scroll-button {
+        bottom: 60px;
+    }
+
+    .landing .mobile-download-button {
+        display: flex;
+        z-index: 8;
+        position: absolute;
+        width: 280px;
+        bottom: 180px;
+        left: calc(50% - 140px);
+    }
+
+    .landing .mobile-download-button .animated-content,
+    .landing .mobile-download-button a {
+        width: 100%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    /* How responsive */
+    .landing #how {
+        max-width: 100%;
+        overflow: hidden;
+        padding: 80px 0px 120px 0px;
+    }
+
+    .landing #how .desktop {
+        display: none;
+    }
+
+    .landing #how .mobile {
+        display: flex;
+    }
+
+    .landing #how .mobile h2 {
+        margin-top: 0px;
+    }
+
+    .landing #how .mobile .illu-how {
+        height: 280px;
+        margin-top: 60px;
+    }
+
+    .landing #how .mobile .illu-how.step1 {
+        margin-left: 0px;
+    }
+
+    .landing #how .mobile .illu-how.step2 {
+        margin-right: 0px;
+    }
+
+    /* Shops responsive */
+    .landing #shops {
+        padding-top: 80px;
+        padding-bottom: 200px;
+    }
+
+    .landing #shops .section-content,
+    .landing #shops h1,
+    .landing #shops h2 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* Benefits responsive */
+    .landing #benefits {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    .landing #benefits .section-content {
+        overflow-x: hidden;
+    }
+
+    .landing #benefits h2 {
+        margin-bottom: 0px;
+    }
+
+    .landing #benefits .benefits-feature {
+        position: relative;
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        margin-top: 60px;
+    }
+
+    .landing #benefits .benefits-feature h2 {
+        margin-bottom: 0;
+    }
+
+    .landing #benefits .benefits-feature img {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 10px;
+    }
+
+    /* Security responsive */
+    .landing #security {
+        padding-top: 60px;
+    }
+
+    .landing #security .section-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landing #security .col,
+    .landing #security .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landing #security .illu-security {
+        max-height: 90vw;
+        height: 400px;
+    }
+
+    .landing #security .row p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    /* Faq responsive */
+    .landing #faq {
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+}
